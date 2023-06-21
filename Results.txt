@@ -1,0 +1,28 @@
+
+Mean Absolute Error (MAE)  2.0793131035472134
+Mean Squared Error (MSE)  7.324441316105051
+
+Mean Absolute Error (MAE) with all data 2.0771314409276798
+Mean Squared Error (MSE) with all data 7.313528794189804
+
+Linear R2 score 0.8543937666026298
+
+RIDGE -> Score on Training Set  0.8544 	Score on testing set  0.8544
+LASSO -> Score on Training Set  0.814 	Score on testing set  0.8146
+
+cross_val_score(ridge, x_train, y_train, cv = 10, scoring = 'r2')
+Out[117]: 
+array([0.85456572, 0.850983  , 0.85393335, 0.85654553, 0.86212046,
+       0.84730399, 0.84921717, 0.85548548, 0.85526248, 0.85529536])
+
+cross validation score MLR  0.854071
+cross validation score RIDGE  0.854071
+cross validation score LASSO  0.813897
+
+MLR -> Score on Normalized Training Set  0.8544 	Score on Normalized testing set  0.8543
+RIDGE -> Score on Normalized Training Set  0.8544 	Score on Normalized testing set  0.8543
+LASSO -> Score on Normalized Training Set  0.0 	Score on testing set  -0.0
+
+cross validation score MLR (normalized)  0.8542
+cross validation score RIDGE (normalized)  0.8542
+cross validation score LASSO (normalized)  -0.0
